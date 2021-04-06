@@ -14,7 +14,7 @@ export default function Intro() {
         >
           Next.js
         </a>{' '}
-        and {CMS_NAME}.
+        with Markdown.
       </h4>
     </section>
   )
