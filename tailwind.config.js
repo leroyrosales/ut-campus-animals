@@ -8,6 +8,17 @@ module.exports = {
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',
+        'ut-burntorange': '#bf5700',
+        'ut-charcoal': '#333f48',
+        'ut-white': '#fff',
+        'ut-tangerine': '#f8971f',
+        'ut-sunshine': '#ffd600',
+        'ut-cactus': '#a6cd57',
+        'ut-turtlepond': '#579d42',
+        'ut-turquoise': '#00a9b7',
+        'ut-bluebonnet': '#005f86',
+        'ut-limestone': '#d6d2c4',
+        'ut-shade': '#9cadb7'
       },
       spacing: {
         28: '7rem',

@@ -1,4 +1,5 @@
 import Alert from '../components/alert'
+import Brandbar from '../components/Brandbar'
 import Footer from '../components/footer'
 import Meta from '../components/meta'
 
@@ -7,7 +8,7 @@ export default function Layout({ preview, children }) {
     <>
       <Meta />
       <div className="min-h-screen">
-        <Alert preview={preview} />
+        <Brandbar />
         <main>{children}</main>
       </div>
       <Footer />
