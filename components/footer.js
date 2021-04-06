@@ -6,9 +6,9 @@ export default function Footer() {
     <footer className="bg-ut-shade--t20">
       <Container>
         <div className="py-8 flex flex-col lg:flex-row justify-between items-center">
-          
+
             <img src="/assets/logos/utexas-primary-horizontal-logo.svg"/>
-          
+
           <div className="flex flex-col lg:flex-row justify-between items-center lg:w-1/3">
             <ul>
               <li><a href="https://utexas.edu/" className="hover:underline">UT Home</a></li>
