@@ -23,7 +23,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-8 flex flex-col lg:flex-row justify-between items-center">
-          <p class="text-sm italic">© The University of Texas at Austin {(new Date().getFullYear())}</p>
+          <p className="text-sm italic">© The University of Texas at Austin {(new Date().getFullYear())}</p>
         </div>
       </Container>
     </footer>
