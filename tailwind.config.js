@@ -8,6 +8,7 @@ module.exports = {
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',
+        // UT Brand Colors http://utw10776.utweb.utexas.edu/core-brand/colors/
         'ut-burntorange': '#bf5700',
         'ut-charcoal': '#333f48',
         'ut-white': '#fff',
@@ -18,7 +19,9 @@ module.exports = {
         'ut-turquoise': '#00a9b7',
         'ut-bluebonnet': '#005f86',
         'ut-limestone': '#d6d2c4',
-        'ut-shade': '#9cadb7'
+        'ut-shade': '#9cadb7',
+        'ut-shade--t20': '#f9fafb',
+        'ut-charcoal--s40': '#1f262b'
       },
       spacing: {
         28: '7rem',

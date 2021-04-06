@@ -3,26 +3,27 @@ import { EXAMPLE_PATH } from '../lib/constants'
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
+    <footer className="bg-ut-shade--t20">
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
+        <div className="py-8 flex flex-col lg:flex-row justify-between items-center">
+          
+            <img src="/assets/logos/utexas-primary-horizontal-logo.svg"/>
+          
+          <div className="flex flex-col lg:flex-row justify-between items-center lg:w-1/3">
+            <ul>
+              <li><a href="https://utexas.edu/" className="hover:underline">UT Home</a></li>
+              <li><a href="https://www.utexas.edu/site-policies" className="hover:underline">Site Policies</a></li>
+              <li><a href="https://cio.utexas.edu/policies/web-privacy" className="hover:underline">Web Privacy Policy</a></li>
+            </ul>
+            <ul>
+              <li><a href="https://emergency.utexas.edu/" className="hover:underline">Emergency Information</a></li>
+              <li><a href="http://www.utexas.edu/web-accessibility-policy" className="hover:underline">Web Accessibility Policy</a></li>
+              <li><a href="https://get.adobe.com/reader/" className="hover:underline">Adobe Reader</a></li>
+            </ul>
           </div>
+        </div>
+        <div className="py-8 flex flex-col lg:flex-row justify-between items-center">
+          <p class="text-sm italic">© The University of Texas at Austin {(new Date().getFullYear())}</p>
         </div>
       </Container>
     </footer>
