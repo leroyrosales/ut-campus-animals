@@ -5,9 +5,7 @@ import Link from 'next/link'
 export default function PostPreview({
   title,
   coverImage,
-  date,
   excerpt,
-  author,
   slug,
 }) {
   return (

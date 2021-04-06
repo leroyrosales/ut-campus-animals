@@ -6,9 +6,7 @@ import Link from 'next/link'
 export default function HeroPost({
   title,
   coverImage,
-  date,
   excerpt,
-  author,
   slug,
 }) {
   return (
