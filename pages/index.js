@@ -14,10 +14,9 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>UT Austin | {CMS_NAME}</title>
+          <title>{CMS_NAME} | UT Austin</title>
         </Head>
         <Container>
-          <Intro />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
