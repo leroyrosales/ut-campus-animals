@@ -1,4 +1,3 @@
-import Alert from '../components/alert'
 import Brandbar from '../components/Brandbar'
 import Footer from '../components/footer'
 import Meta from '../components/meta'
