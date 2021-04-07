@@ -8,7 +8,7 @@ export default function PostHeader({ title, coverImage, date, author }) {
     <>
       <PostTitle>{title}</PostTitle>
       <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} src={coverImage} height={600} width={900} />
+        <CoverImage title={title} src={coverImage} height={600} width={900} priority />
       </div>
     </>
   )
