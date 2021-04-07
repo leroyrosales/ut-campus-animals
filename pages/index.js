@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
+import Header from '../components/header'
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0]
@@ -17,7 +18,7 @@ export default function Index({ allPosts }) {
           <title>{CMS_NAME} | UT Austin</title>
         </Head>
         <Container>
-          <Intro />
+          <Header/>
           {heroPost && (
             <HeroPost
               title={heroPost.title}
