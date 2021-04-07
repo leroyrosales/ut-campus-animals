@@ -13,7 +13,8 @@ export default function CoverImage({ title, src, slug, height, width }) {
       layout="responsive"
       width={width}
       height={height}
-      priority
+      quality={50}
+      priority={true}
     />
   )
   return (
