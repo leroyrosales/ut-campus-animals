@@ -18,6 +18,7 @@ export default function HeroPost({
           slug={slug}
           height={600}
           width={900}
+          priority
         />
       </div>
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
